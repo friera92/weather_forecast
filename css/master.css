@@ -1,0 +1,90 @@
+body {
+    color: white;
+    font-family: acuminVariable, fallingSky, sans-serif;
+    font-weight: 500;
+    height: 100%;
+    background: url("../images/recurso_1.png") no-repeat fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#app {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100%;
+}
+
+.banner {
+    width: 25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    margin: 5rem auto;
+}
+
+.loading {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.weather-info .card {
+    background-color: rgba(54, 123, 135, .5);
+    border: none;
+    color: white;
+}
+
+.weather-info .card .card-body {
+    background-color: rgba(211, 220, 226, .75);
+}
+
+.forecast-header {
+    margin: 1.5rem auto;
+}
+
+footer {
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    top: 25vh;
+}
+
+footer p {
+    margin: .5rem auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-size: .75em;
+    }
+
+    .banner {
+        width: 80vw;
+    }
+
+    .header {
+        margin: 1.75rem auto;
+    }
+
+    .header .form-select {
+        width: 75vw !important;
+        font-size: .75rem !important;
+    }
+
+    .header>div {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@font-face {
+    font-family: fallingSky;
+    src: url("../fonts/FallingSkyCondensed-9qm2.otf");
+}
+
+@font-face {
+    font-family: acuminVariable;
+    src: url("../fonts/AcuminVariableConcept.otf");
+}
